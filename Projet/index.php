@@ -7,6 +7,7 @@ $data = array();
 include_once 'application\modules\profil.inc.php';
 include_once 'application\modules\accueil.inc.php';
 
+$bdd = new PDO($cbdd['dsn'], $cbdd['user'], $cbdd['pwd']);
 //$_GET['page'] = '';
 
 if (isset($_GET['page']) && array_key_exists($_GET['page'], $_PAGES))

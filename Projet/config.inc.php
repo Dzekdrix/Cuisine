@@ -11,4 +11,10 @@ $_PAGES = array(
 	'liste_recette'=>'recette_liste',
 	'error_404' => $ERROR_404
 	);
+
+$cbdd = [
+		"dsn" => "mysql:host=localhost;dbname=chat;charset=utf8",
+		"user" => "root",
+		"pwd" => ""
+	];
 ?>
