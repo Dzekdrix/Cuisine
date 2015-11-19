@@ -7,7 +7,15 @@ $data = array();
 include_once 'application\modules\profil.inc.php';
 include_once 'application\modules\accueil.inc.php';
 
-$bdd = new PDO($cbdd['dsn'], $cbdd['user'], $cbdd['pwd']);
+//try {
+	$bdd = new PDO($cbdd['dsn'], $cbdd['user'], $cbdd['pwd']);
+//}
+/*catch( PDOException $Exception ) {
+    // PHP Fatal Error. Second Argument Has To Be An Integer, But PDOException::getCode Returns A
+    // String.
+    echo "<p>Erreur de connexion à la base de données<p>";
+}*/
+
 //$_GET['page'] = '';
 
 if (isset($_GET['page']) && array_key_exists($_GET['page'], $_PAGES))

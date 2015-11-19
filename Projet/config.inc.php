@@ -14,8 +14,9 @@ $_PAGES = array(
 	);
 
 $cbdd = [
-		"dsn" => "mysql:host=localhost;dbname=chat;charset=utf8",
-		"user" => "root",
-		"pwd" => ""
+		"dsn" => "mysql:host=bkaa.fr;dbname=recette;charset=utf8",
+		//"dsn" => "mysql:host=localhost;dbname=recette;charset=utf8",
+		"user" => "cuisine",
+		"pwd" => "projet"
 	];
 ?>
