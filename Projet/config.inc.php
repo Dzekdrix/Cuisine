@@ -9,7 +9,8 @@ $_PAGES = array(
 	'profil'=>'profil',
 	'detail_recette'=>'recette_detail',
 	'liste_recette'=>'recette_liste',
-	'error_404' => $ERROR_404
+	'error_404' => $ERROR_404,
+	'recettes' => 'recette'
 	);
 
 $cbdd = [
