@@ -7,12 +7,12 @@ $data = array();
 include_once 'application\modules\profil.inc.php';
 include_once 'application\modules\accueil.inc.php';
 
-$_GET['page'] = '';
+//$_GET['page'] = '';
 
 if (isset($_GET['page']) && array_key_exists($_GET['page'], $_PAGES))
 	$current_page = $_PAGES[$_GET['page']];
 else 
-	$current_page = $_PAGES[''];
+	$current_page = $_PAGES['error_404'];
 
 require('application\libraries\smarty-3.1.27\libs\Smarty.class.php');
 
